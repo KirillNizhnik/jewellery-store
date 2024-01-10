@@ -1,0 +1,8 @@
+2024-01-09T23:20:44+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::get_title() in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /front-page.php:404
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/template-loader.php(106): include()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-blog-header.php(19): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/jewellery-store/index.php(17): require('/Applications/M...')
+#3 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /front-page.php on line 404
+

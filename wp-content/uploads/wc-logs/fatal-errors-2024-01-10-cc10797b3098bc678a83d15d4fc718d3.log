@@ -1,0 +1,18 @@
+2024-01-10T00:30:26+00:00 CRITICAL Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/woocommerce.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:29
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(611): include()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin.php(34): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php on line 29
+
+2024-01-10T00:30:58+00:00 CRITICAL Uncaught Error: Failed opening required '/Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/woocommerce.php' (include_path='.:/Applications/MAMP/bin/php/php8.2.0/lib/php') in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:29
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(611): include()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#4 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php on line 29
+

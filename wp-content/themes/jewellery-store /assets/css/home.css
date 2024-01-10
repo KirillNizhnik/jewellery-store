@@ -1,0 +1,839 @@
+.link{
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.hero {
+    background-image: url('../images/header-bg.png');
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero__content{
+    padding: 240px 0 0 0;
+    margin-left: 100px;
+    max-width: 470px;
+}
+
+.hero__subtitle-text{
+    color: #FFF;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.hero__title{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: Marcellus, sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.hero__text{
+    color: #FFF;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.hero__link{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.hero__shop_now-link{
+    color: #000;
+    background: #FFF;
+}
+
+.hero__shop_now-link:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color:#fff;
+    border: 1px solid #FFF;
+}
+
+.hero__shop_now-link:active{
+    background: #3C3C3C;
+    color:#fff;
+    border: 1px solid #FFF;
+}
+
+
+.hero__view-more-link {
+    margin-left: 15px;
+    color: #FFF;
+    border: 1px solid #FFF;
+    box-sizing: border-box;
+}
+
+.hero__view-more-link:hover {
+    background-color: #FFF;
+    color: #000000;
+    border: 1px solid #000;
+}
+
+.hero__view-more-link:active {
+    background-color: #3C3C3C;
+    color: #000000;
+    border: 1px solid #000;
+}
+
+.jewellery-store-detail{
+    margin-top: 100px;
+}
+
+.jewellery-store-detail__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.jewellery-store-detail__inner-img{
+    width: 624px;
+    max-width: 624px;
+}
+
+.jewellery-store-detail__inner-info{
+    width: 470px;
+}
+
+.detail__subtitle{
+    color:  #C3935B;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.detail__title-part-1{
+    color: #242424;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 75px;
+    margin-top: 10px;
+}
+
+.detail__title-part-2{
+    color:  #242424;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    margin-top: 10px;
+}
+
+.detail__text{
+    color: #777;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.detail__link-shop-now{
+    background-color:  #777;
+    color: #FFF;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 178.571% */
+    text-transform: uppercase;
+}
+
+.detail__link-shop-now:hover{
+    color: #FFF;
+    background-color: #000;
+}
+
+.detail__link{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.detail__link-view-more{
+    border: 1px solid #DFDFDF;
+    color: #242424;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.detail__link-view-more:hover{
+    background-color: #FFF;
+    color: #000000;
+    border: 1px solid #000;
+}
+
+.detail__link-view-more:active{
+    background-color: #3C3C3C;
+    color: #000000;
+    border: 1px solid #000;
+}
+
+.featured-products{
+    margin-top: 100px;
+}
+
+.featured-products_subtitle{
+    color:  #C3935B;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.featured-products_title{
+    color:  #242424;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.featured-products_text{
+    color:  #777;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.featured_products-categories{
+    margin-top: 50px;
+}
+
+.featured_product-category{
+    display: flex;
+    margin-top: 30px;
+}
+
+.featured_product-category:first-child{
+    margin-top: 0;
+}
+
+.category-img{
+    width: 270px
+}
+
+.featured_product__category-products{
+    display: flex;
+    margin-left: 30px;
+}
+
+.category-left-btn{
+    width: 30px
+}
+
+.category-products-list{
+
+}
+
+.category-right-btn{
+    width: 30px
+}
+
+.category-products-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item-title{
+    margin-top: 15px;
+    color:  #242424;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.product-item-category{
+    margin-top: 5px;
+    color: #777;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.product-item-price{
+    margin-top: 5px;
+    color:  #C3935B;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+
+.category-products-item{
+
+}
+
+
+
+.product-item-img{
+    width: 250px;
+}
+
+
+.category-container{
+    width: 780px;
+    margin-left: 15px;
+}
+
+.category-right-btn{
+    margin-left: 15px;
+}
+
+
+.special-offer{
+    margin-top: 100px;
+}
+
+.special-offer__inner{
+    display: flex;
+    gap: 119px;
+    align-items: center;
+}
+
+.special-offer-video{
+    width: 581px;
+    position: relative;
+}
+
+.special-offer-text{
+    width: 470px;
+}
+
+.special-offer-video{
+    width: 581px;
+}
+
+.special-offer-video-play{
+    position: absolute;
+    left:240px;
+    top: 114px;
+}
+
+
+.special-offer-title{
+    color:  #C3935B;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.special-offer-name{
+    margin-top: 10px;
+    color: #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.special-offer-name-1{
+    margin-top: 10px;
+    color: #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+
+.special-offer-link{
+    margin-top: 30px;
+}
+
+
+.grey-link{
+    background-color: #777;
+    color: #FFF;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 178.571% */
+    text-transform: uppercase;
+}
+
+.grey-link:hover {
+    background: #585757;
+}
+
+.grey-link:active{
+    background: #373737;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    position: relative;
+    margin: 10% auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+
+.close {
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    z-index: 2;
+}
+
+.close:hover {
+    color: white;
+}
+
+.jewellery-store-any-product{
+    margin-top: 100px;
+}
+
+.jewellery-store-any-product__inner{
+    display: flex;
+    gap: 45px;
+}
+
+.jewellery-store-any-product__special-offer{
+    width: 569px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jewellery-store-any-product-special-offer-text{
+    padding: 26px 0 25px 274px;
+}
+
+.jewellery-store-any-product-subtitle{
+    color:#242424;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.jewellery-store-any-product-title{
+    margin-top: 10px;
+    color:  #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+}
+
+.jewellery-store-any-product-info {
+    margin-top: 10px;
+    color:  #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.jewellery-store-any-product-link{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.jewellery-store-any-products{
+    width: 255px;
+}
+
+.jewellery-store-any-products-title{
+    color: #000;
+    font-family: Marcellus, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+    text-transform: uppercase;
+}
+
+.jewellery-store-any-products-list{
+    margin-top: 20px;
+}
+
+.jewellery-store-any-products-item{
+    margin-top: 15px;
+}
+
+.jewellery-store-any-products-item:first-child{
+    margin-top: 15px;
+}
+
+.jewellery-store-any-products-item-img{
+    width: 65px;
+}
+
+.jewellery-store-any-products-item-link{
+    display: flex;
+    gap: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+
+
+.jewellery-store-any-products-item-price{
+    display: block;
+    margin-top: 10px;
+    color:  #C3935B;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+
+
+.jewellery-store-any-products-item-title{
+    color:  #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.discount{
+    margin-top: 100px;
+}
+
+.discount__inner{
+    display: flex;
+    gap: 15px;
+}
+
+.discount-title-part-1{
+    color: #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.discount-title-num{
+    color:  #C3935B;
+}
+
+.discount-title-part-2{
+    margin-top: 10px;
+    color:  #242424;
+    font-family: Marcellus, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.discount-text{
+    color:  #777;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.discount-text-list{
+    margin: 15px 0  0 30px;
+
+
+}
+
+.discount-text-item{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.discount-text-item{
+    margin-top: 10px;
+}
+
+.discount-any-link{
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.discount-text-link-view-more{
+    border: 1px solid #DFDFDF;
+    color:  #242424;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.discount-text-link-view-more:hover{
+    background-color: #DFDFDF;
+}
+
+.discount-text-link-view-more:active{
+    border: 1px solid  #242424;
+    background-color: #777;
+}
+
+.design-blog{
+    margin-top: 100px;
+}
+
+
+.design-blog-subtitle{
+    color:  #C3935B;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.design-blog-title{
+    margin-top: 10px;
+    color:  #242424;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.design-blog-text{
+    color:  #777;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.design-blog-slider{
+    margin-top: 50px;
+}
+
+.design-blog-item{
+    width: 345px;
+
+}
+
+.design-blog-slider{
+    display: flex;
+}
+
+.design-blog-img{
+    width: 345px;
+}
+
+.design-blog-post-title{
+    margin-top: 25px;
+    color: #000;
+    text-align: center;
+    font-family: Marcellus, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+    text-transform: uppercase;
+}
+
+.design-blog-post-excerpt{
+    margin-top: 10px;
+    color:  #777;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.design-blog-continue-reading{
+    color:  #C3935B;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+}
+
+.design-blog-item-block-img{
+    position: relative;
+}
+
+.design-blog-post-date-and-num{
+    top: 15px;
+    left: 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background: #FFF;
+    color:  #242424;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.design-blog-post-month{
+    margin-top: 1px;
+    color:  #242424;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.design-blog-post-categories{
+    top: 248px;
+    left: 92px;
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 208.333% */
+    text-transform: uppercase;
+    background-color: #C3935B;
+    padding: 0 10px;
+}
+
+.design-blog-container{
+    margin-left: 16px;
+    width: 1075px;
+}
+
+.design-blog-btn{
+    width:30px;
+}
+
+.design-blog-right-btn{
+    margin-left: 18px;
+}
+
+.design-blog-posted-by{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    color: rgba(119, 119, 119, 0.50);
+    text-align: center;
+    font-family: Lora, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.design-blog-posted-by-img{
+    width: 30px;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
