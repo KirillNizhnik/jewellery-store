@@ -14,7 +14,6 @@ function jewellery_store_scripts(): void {
 	wp_enqueue_style( 'jewellery_store_main_style', get_template_directory_uri() . "/assets/css/main.css", array(), _S_VERSION, 'all' );
 	wp_enqueue_style( 'swiper', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css', array(), null );
 	wp_enqueue_script( 'shopping-cart', get_template_directory_uri() . "/assets/js/shopping-cart.js", array( 'jquery' ), _S_VERSION, true );
-
 	if ( is_front_page() ) {
 		wp_enqueue_style( 'jewellery_store_home_style', get_template_directory_uri() . "/assets/css/home.css", array(), _S_VERSION );
 		wp_enqueue_script( 'smooth-scroll', get_template_directory_uri() . "/assets/js/smooth-scrolling.js", array( 'jquery' ), _S_VERSION );
@@ -25,6 +24,9 @@ function jewellery_store_scripts(): void {
 
 	}
 }
+
+require get_template_directory() . '/inc/widgets.php';
+
 require get_template_directory() . '/inc/blog-post-type.php';
 
 if ( class_exists( 'WooCommerce' ) ) {
@@ -36,5 +38,6 @@ function dd( $data ): void {
 	var_dump( $data );
 	echo '</pre>';
 }
+
 
 

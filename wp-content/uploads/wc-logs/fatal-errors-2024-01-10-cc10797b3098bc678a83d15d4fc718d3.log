@@ -16,3 +16,161 @@ Stack trace:
 #4 {main}
   thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php on line 29
 
+2024-01-10T15:39:12+00:00 CRITICAL Cannot redeclare register_footer_logo_text_widget() (previously declared in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:84) in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php on line 42
+
+2024-01-10T15:39:12+00:00 CRITICAL Cannot redeclare register_footer_logo_text_widget() (previously declared in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:84) in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php on line 42
+
+2024-01-10T15:39:13+00:00 CRITICAL Cannot redeclare register_footer_logo_text_widget() (previously declared in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:84) in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php on line 42
+
+2024-01-10T15:39:14+00:00 CRITICAL Cannot redeclare register_footer_logo_text_widget() (previously declared in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /functions.php:84) in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php on line 42
+
+2024-01-10T15:40:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_footer_logo_text_widget" not found or invalid function name in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php on line 324
+
+2024-01-10T15:40:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_footer_logo_text_widget" not found or invalid function name in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin.php(34): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-admin/post.php(12): require_once('/Applications/M...')
+#11 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php on line 324
+
+2024-01-10T15:40:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_footer_logo_text_widget" not found or invalid function name in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php on line 324
+
+2024-01-10T15:40:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_footer_logo_text_widget" not found or invalid function name in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin.php(34): require_once('/Applications/M...')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-admin/edit.php(10): require_once('/Applications/M...')
+#11 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php on line 324
+
+2024-01-10T15:41:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "register_footer_logo_text_widget" not found or invalid function name in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php on line 324
+
+2024-01-10T15:58:59+00:00 CRITICAL Uncaught Error: Class "Foo_Widget" not found in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php(5): register_widget('Foo_Widget')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): register_foo_widget('')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php on line 62
+
+2024-01-10T15:59:00+00:00 CRITICAL Uncaught Error: Class "Foo_Widget" not found in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php(5): register_widget('Foo_Widget')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): register_foo_widget('')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php on line 62
+
+2024-01-10T15:59:01+00:00 CRITICAL Uncaught Error: Class "Foo_Widget" not found in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php(5): register_widget('Foo_Widget')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): register_foo_widget('')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin.php(34): require_once('/Applications/M...')
+#13 /Applications/MAMP/htdocs/jewellery-store/wp-admin/edit.php(10): require_once('/Applications/M...')
+#14 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php on line 62
+
+2024-01-10T16:00:00+00:00 CRITICAL Uncaught Error: Class "Foo_Widget" not found in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php:62
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(115): WP_Widget_Factory->register('Foo_Widget')
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/widgets.php(5): register_widget('Foo_Widget')
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): register_foo_widget('')
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-includes/widgets.php(1858): do_action('widgets_init')
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): wp_widgets_init('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-settings.php(643): do_action('init')
+#10 /Applications/MAMP/htdocs/jewellery-store/wp-config.php(96): require_once('/Applications/M...')
+#11 /Applications/MAMP/htdocs/jewellery-store/wp-load.php(50): require_once('/Applications/M...')
+#12 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(22): require_once('/Applications/M...')
+#13 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-widget-factory.php on line 62
+
