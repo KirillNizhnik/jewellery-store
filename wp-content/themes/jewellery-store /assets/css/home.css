@@ -430,6 +430,7 @@
 .product-item-img-add-to-cart{
     width: 16px;
     fill: grey ;
+    cursor: pointer;
 }
 
 .product-item-img-add-to-cart:hover{
@@ -439,11 +440,14 @@
 .product-item-img-open-cart-link-img {
     width: 24px;
     fill: grey ;
+    cursor: pointer;
 }
 
 .product-item-img-open-cart-link-img:hover{
     fill: #C3935B;
 }
+
+
 
 
 

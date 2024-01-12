@@ -1385,7 +1385,7 @@ if ( ! function_exists( 'woocommerce_template_loop_add_to_cart' ) ) {
 				$args['attributes']['aria-label'] = wp_strip_all_tags( $args['attributes']['aria-label'] );
 			}
 
-			wc_get_template( 'loop/add-to-cart.php', $args );
+			wc_get_template( 'loop/ajax-cart.php', $args );
 		}
 	}
 }
