@@ -1,0 +1,122 @@
+2024-01-12T00:19:35+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 1)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:19:41+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 2)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:19:46+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 3)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:20:22+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 1)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:20:36+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 1)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:21:16+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(69): WC_Cart->set_quantity(105, 1)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:22:59+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(68): WC_Cart->set_quantity(106, 2)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T00:25:28+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:232
+Stack trace:
+#0 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(658): WC_Cart_Totals->get_items_from_cart()
+#1 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(150): WC_Cart_Totals->calculate_item_totals()
+#2 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate()
+#3 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1408): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1367): WC_Cart->calculate_totals()
+#5 /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /inc/ajax/ajax-cart.php(68): WC_Cart->set_quantity(106, 3)
+#6 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(324): AjaxBuyProduct->update_quantity_product('')
+#7 /Applications/MAMP/htdocs/jewellery-store/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 /Applications/MAMP/htdocs/jewellery-store/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#9 /Applications/MAMP/htdocs/jewellery-store/wp-admin/admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#10 {main}
+  thrown in /Applications/MAMP/htdocs/jewellery-store/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 232
+
+2024-01-12T01:45:52+00:00 CRITICAL syntax error, unexpected token ";" in /Applications/MAMP/htdocs/jewellery-store/wp-content/themes/jewellery-store /header.php on line 148
+
