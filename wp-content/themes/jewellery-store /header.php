@@ -27,38 +27,118 @@
                     echo  $logo_url;} ?>" alt="Logo">
 
             </a>
-            <ul class="header__nav-menu">
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">HOME</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">SHOP</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">BLOG</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">PAGES</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">ELEMENTS</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-                <li class="header__nav-menu-item">
-                    <a href="" class="header__menu-item-link">BUY</a>
-                    <img class="header__menu-item-chevron"
-                         src="<?= bloginfo( 'template_url' ); ?>/assets/images/chevron.svg" alt="chevron">
-                </li>
-            </ul>
+
+            <?php echo my_nav_menu();
+
+
+            ?>
+            <!--            <ul class="header__nav-menu">-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">HOME-->
+<!--                        <img class="header__menu-item-chevron"-->
+<!--                             src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                    </a>-->
+<!---->
+<!--                    <div class="header__menu-item-opened">-->
+<!--                        <ul class="header__menu-items-opened-list">-->
+<!--                            <li class="header__menu-item-opened-list-item">-->
+<!--                                <a href='' class="header__menu-item-opened-link">-->
+<!--                                    Column 1-->
+<!--                                </a>-->
+<!--                                <ul class="header__menu-items-opened-list-1">-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 1-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 2-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="header__menu-item-opened-list-item">-->
+<!--                                <a href="" class="header__menu-item-opened-link">-->
+<!--                                    Column 2-->
+<!--                                </a>-->
+<!--                                <ul class="header__menu-items-opened-list-1">-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 1-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 2-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                            <li class="header__menu-item-opened-list-item">-->
+<!--                                <a href="" class="header__menu-item-opened-link">-->
+<!--                                    Column 3-->
+<!--                                </a>-->
+<!--                                <ul class="header__menu-items-opened-list-1">-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 1-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 2-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!---->
+<!--                            </li>-->
+<!--                            <li class="header__menu-item-opened-list-item">-->
+<!--                                <a href="" class="header__menu-item-opened-link">-->
+<!--                                    Column 4-->
+<!--                                </a>-->
+<!--                                <ul class="header__menu-items-opened-list-1">-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 1-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                    <li class="header__menu-item-opened-list-item-1">-->
+<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
+<!--                                            Row 2-->
+<!--                                        </a>-->
+<!--                                    </li>-->
+<!--                                </ul>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">SHOP</a>-->
+<!--                    <img class="header__menu-item-chevron"-->
+<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                </li>-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">BLOG</a>-->
+<!--                    <img class="header__menu-item-chevron"-->
+<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                </li>-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">PAGES</a>-->
+<!--                    <img class="header__menu-item-chevron"-->
+<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                </li>-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">ELEMENTS</a>-->
+<!--                    <img class="header__menu-item-chevron"-->
+<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                </li>-->
+<!--                <li class="header__nav-menu-item">-->
+<!--                    <a href="" class="header__menu-item-link">BUY</a>-->
+<!--                    <img class="header__menu-item-chevron"-->
+<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
+<!--                </li>-->
+<!--            </ul>-->
             <div class="header__login-and-register">
                 <a href="<?= get_home_url() ?>" class="header__login">LOGIN</a>
                 /
@@ -93,6 +173,8 @@
 
     </div>
 </header>
+
+
 
 <div class="shopping_cart_closed">
     <div class="shopping-cart__inner">
