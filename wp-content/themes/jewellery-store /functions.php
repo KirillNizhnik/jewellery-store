@@ -5,6 +5,19 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
+function jewellery_store_logo() {
+	$defaults = array(
+		'height'               => 40,
+		'width'                => 112,
+		'flex-height'          => true,
+		'flex-width'           => true,
+		'header-text'          => array( 'site-title', 'site-description' ),
+		'unlink-homepage-logo' => true,
+	);
+	add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'jewellery_store_logo' );
+
 
 add_action( 'wp_enqueue_scripts', 'jewellery_store_scripts' );
 

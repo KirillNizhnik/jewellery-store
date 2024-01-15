@@ -18,7 +18,14 @@
     <div class="container">
         <div class="header__inner">
             <a href="<?= get_home_url() ?>" class="header__home-link">
-                <img src="<?= bloginfo( 'template_url' ); ?>/assets/images/logo.svg" alt="Logo">
+                <?php
+                $custom_logo_id = get_theme_mod('custom_logo');
+                $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
+
+                ?>
+                <img src="<?php  if($logo_url){
+                    echo  $logo_url;} ?>" alt="Logo">
+
             </a>
             <ul class="header__nav-menu">
                 <li class="header__nav-menu-item">

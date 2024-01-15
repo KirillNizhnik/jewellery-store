@@ -100,6 +100,11 @@ class AjaxBuyProduct{
 		wp_die();
 	}
 
+
+
+
+
+
 	function remove_product_from_cart($product_id): void
 	{
 		$cart = WC()->cart;
@@ -112,5 +117,10 @@ class AjaxBuyProduct{
 		}
 	}
 
+
+
+
+
 }
 new AjaxBuyProduct();
+
