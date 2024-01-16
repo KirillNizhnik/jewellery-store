@@ -18,127 +18,15 @@
     <div class="container">
         <div class="header__inner">
             <a href="<?= get_home_url() ?>" class="header__home-link">
-                <?php
-                $custom_logo_id = get_theme_mod('custom_logo');
-                $logo_url = wp_get_attachment_image_url($custom_logo_id, 'full');
-
-                ?>
-                <img src="<?php  if($logo_url){
-                    echo  $logo_url;} ?>" alt="Logo">
-
+				<?php
+				$custom_logo_id = get_theme_mod( 'custom_logo' );
+				$logo_url       = wp_get_attachment_image_url( $custom_logo_id, 'full' );
+				?>
+                <img src="<?php if ( $logo_url ) {
+					echo $logo_url;
+				} ?>" alt="Logo">
             </a>
-
-            <?php echo my_nav_menu();
-
-
-            ?>
-            <!--            <ul class="header__nav-menu">-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">HOME-->
-<!--                        <img class="header__menu-item-chevron"-->
-<!--                             src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                    </a>-->
-<!---->
-<!--                    <div class="header__menu-item-opened">-->
-<!--                        <ul class="header__menu-items-opened-list">-->
-<!--                            <li class="header__menu-item-opened-list-item">-->
-<!--                                <a href='' class="header__menu-item-opened-link">-->
-<!--                                    Column 1-->
-<!--                                </a>-->
-<!--                                <ul class="header__menu-items-opened-list-1">-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 1-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 2-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="header__menu-item-opened-list-item">-->
-<!--                                <a href="" class="header__menu-item-opened-link">-->
-<!--                                    Column 2-->
-<!--                                </a>-->
-<!--                                <ul class="header__menu-items-opened-list-1">-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 1-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 2-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                            <li class="header__menu-item-opened-list-item">-->
-<!--                                <a href="" class="header__menu-item-opened-link">-->
-<!--                                    Column 3-->
-<!--                                </a>-->
-<!--                                <ul class="header__menu-items-opened-list-1">-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 1-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 2-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                </ul>-->
-<!---->
-<!--                            </li>-->
-<!--                            <li class="header__menu-item-opened-list-item">-->
-<!--                                <a href="" class="header__menu-item-opened-link">-->
-<!--                                    Column 4-->
-<!--                                </a>-->
-<!--                                <ul class="header__menu-items-opened-list-1">-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 1-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                    <li class="header__menu-item-opened-list-item-1">-->
-<!--                                        <a href="" class="header__menu-item-opened-link-1">-->
-<!--                                            Row 2-->
-<!--                                        </a>-->
-<!--                                    </li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">SHOP</a>-->
-<!--                    <img class="header__menu-item-chevron"-->
-<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                </li>-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">BLOG</a>-->
-<!--                    <img class="header__menu-item-chevron"-->
-<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                </li>-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">PAGES</a>-->
-<!--                    <img class="header__menu-item-chevron"-->
-<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                </li>-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">ELEMENTS</a>-->
-<!--                    <img class="header__menu-item-chevron"-->
-<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                </li>-->
-<!--                <li class="header__nav-menu-item">-->
-<!--                    <a href="" class="header__menu-item-link">BUY</a>-->
-<!--                    <img class="header__menu-item-chevron"-->
-<!--                         src="--><?php //= bloginfo( 'template_url' ); ?><!--/assets/images/chevron.svg" alt="chevron">-->
-<!--                </li>-->
-<!--            </ul>-->
+			<?php echo my_nav_menu(); ?>
             <div class="header__login-and-register">
                 <a href="<?= get_home_url() ?>" class="header__login">LOGIN</a>
                 /
@@ -158,13 +46,13 @@
                               fill="white"/>
                     </svg>
                     <span class="count-product-in-basket">
-                    <?= $cart_items_count = WC()->cart->get_cart_contents_count();?>
+                    <?= $cart_items_count = WC()->cart->get_cart_contents_count(); ?>
                 </span>
                 </div>
 
 				<?php $cart = WC()->cart;
-				$total      = $cart->get_total('float');
-				$symbol = get_woocommerce_currency_symbol()
+				$total      = $cart->get_total( 'float' );
+				$symbol     = get_woocommerce_currency_symbol()
 				?>
                 <p class="header__cart-subtotal"><?= $symbol . $total ?></p>
             </div>
@@ -175,41 +63,41 @@
 </header>
 
 
-
 <div class="shopping_cart_closed">
     <div class="shopping-cart__inner">
         <span class="shopping-cart-title">Shopping cart</span>
         <img src="<?= bloginfo( 'template_url' ) ?>/assets/images/close.svg" alt="close-cart" class="close-cart-img">
     </div>
     <div class="shopping-cart-inner-2">
-		<?php $cart_items = WC()->cart->get_cart();?>
+		<?php $cart_items = WC()->cart->get_cart(); ?>
 
-            <ul class="shopping-cart-list">
-				<?php
-				if ( $cart_items ){
+        <ul class="shopping-cart-list">
+			<?php
+			if ( $cart_items ) {
 				foreach ( $cart_items as $item ):
-					$product = wc_get_product($item['product_id']);
+					$product = wc_get_product( $item['product_id'] );
 					$link = $product->get_permalink();
-					$product_image_id  = get_post_thumbnail_id($item['product_id']);
+					$product_image_id = get_post_thumbnail_id( $item['product_id'] );
 					$product_image_url = wp_get_attachment_image_src( $product_image_id, 'full' )[0];
 					$product_image_alt = get_post_meta( $product_image_id, '_wp_attachment_image_alt', true );
 					$quantity = $item['quantity'];
-                    $price = $product->get_price();
+					$price = $product->get_price();
 
 					?>
                     <li class="shopping-cart-item">
                         <a href="<?= $link ?>" class="shopping-cart-link">
-                            <img src="<?= $product_image_url  ?>" alt="<?= $product_image_alt?>"
+                            <img src="<?= $product_image_url ?>" alt="<?= $product_image_alt ?>"
                                  class="shopping-cart-item-img">
                         </a>
                         <div class="shopping-cart-content">
                             <div class="shopping-cart-name-and-remove">
                                 <a href="<?= $link ?>" class="shopping-cart-link">
                         <span class="shopping-cart-item-name">
-                        <?= $product->get_title()?>
+                        <?= $product->get_title() ?>
                         </span>
                                 </a>
-                                <img data-product_id="<?= $item['product_id'] ?>" src="<?= bloginfo( 'template_url' ) ?>/assets/images/close.svg" alt=""
+                                <img data-product_id="<?= $item['product_id'] ?>"
+                                     src="<?= bloginfo( 'template_url' ) ?>/assets/images/close.svg" alt=""
                                      class="remove-product">
                             </div>
                             <div class="shopping-cart-quantity-block">
@@ -228,24 +116,27 @@
 				<?php endforeach; ?>
 
 
-                <?php } else{ ?>
-                        <li class="no-items-in-cart">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="101" height="100" viewBox="0 0 101 100" fill="none">
-                                <path opacity="0.1" d="M65.3515 34.1463L54.9554 23.9024L44.5594 34.1463L37.6287 27.3171L48.0247 17.0732L37.6287 6.82927L44.5594 0L54.9554 10.2439L65.3515 0L72.2822 6.82927L61.8861 17.0732L72.2822 27.3171L65.3515 34.1463ZM30.203 80.4878C35.6485 80.4878 40.104 84.8781 40.104 90.2439C40.104 95.6098 35.6485 100 30.203 100C24.7574 100 20.302 95.6098 20.302 90.2439C20.302 84.8781 24.7574 80.4878 30.203 80.4878ZM79.7079 80.4878C85.1535 80.4878 89.6089 84.8781 89.6089 90.2439C89.6089 95.6098 85.1535 100 79.7079 100C74.2624 100 69.8069 95.6098 69.8069 90.2439C69.8069 84.8781 74.2624 80.4878 79.7079 80.4878ZM31.1931 64.8781C31.1931 65.3659 31.6881 65.8537 32.1832 65.8537H89.6089V75.6098H30.203C24.7574 75.6098 20.302 71.2195 20.302 65.8537C20.302 63.9024 20.797 62.439 21.2921 60.9756L27.7277 49.2683L10.401 12.1951H0.5V2.43902H16.8366L38.1238 46.3415H72.7772L92.0842 12.1951L100.5 17.0732L81.1931 51.2195C79.7079 54.1463 76.2426 56.0976 72.7772 56.0976H35.6485L31.1931 63.9024V64.8781Z" fill="#777777"/>
-                            </svg>
-                            <p class="no-items-in-cart-text">No products in the cart.</p>
-                            <a href="<?= wc_get_page_permalink('shop') ?>" class="no-items-in-cart-link">
-                                RETURN TO SHOP
-                            </a>
-                        </li>
+			<?php } else { ?>
+                <li class="no-items-in-cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="101" height="100" viewBox="0 0 101 100" fill="none">
+                        <path opacity="0.1"
+                              d="M65.3515 34.1463L54.9554 23.9024L44.5594 34.1463L37.6287 27.3171L48.0247 17.0732L37.6287 6.82927L44.5594 0L54.9554 10.2439L65.3515 0L72.2822 6.82927L61.8861 17.0732L72.2822 27.3171L65.3515 34.1463ZM30.203 80.4878C35.6485 80.4878 40.104 84.8781 40.104 90.2439C40.104 95.6098 35.6485 100 30.203 100C24.7574 100 20.302 95.6098 20.302 90.2439C20.302 84.8781 24.7574 80.4878 30.203 80.4878ZM79.7079 80.4878C85.1535 80.4878 89.6089 84.8781 89.6089 90.2439C89.6089 95.6098 85.1535 100 79.7079 100C74.2624 100 69.8069 95.6098 69.8069 90.2439C69.8069 84.8781 74.2624 80.4878 79.7079 80.4878ZM31.1931 64.8781C31.1931 65.3659 31.6881 65.8537 32.1832 65.8537H89.6089V75.6098H30.203C24.7574 75.6098 20.302 71.2195 20.302 65.8537C20.302 63.9024 20.797 62.439 21.2921 60.9756L27.7277 49.2683L10.401 12.1951H0.5V2.43902H16.8366L38.1238 46.3415H72.7772L92.0842 12.1951L100.5 17.0732L81.1931 51.2195C79.7079 54.1463 76.2426 56.0976 72.7772 56.0976H35.6485L31.1931 63.9024V64.8781Z"
+                              fill="#777777"/>
+                    </svg>
+                    <p class="no-items-in-cart-text">No products in the cart.</p>
+                    <a href="<?= wc_get_page_permalink( 'shop' ) ?>" class="no-items-in-cart-link">
+                        RETURN TO SHOP
+                    </a>
+                </li>
 
-                <?php
-                } ?>
-            </ul>
+				<?php
+			} ?>
+        </ul>
 
 
-        <div class="shopping-cart-subtotal-container <?php if (!$cart_items){
-            echo 'cart-empty';} ?>">
+        <div class="shopping-cart-subtotal-container <?php if ( ! $cart_items ) {
+			echo 'cart-empty';
+		} ?>">
             <div class="shopping-cart-subtotal">
                 <span class="shopping-cart-subtotal-text">Subtotal:</span>
                 <span class="shopping-cart-subtotal-price"><?= $total ?></span>

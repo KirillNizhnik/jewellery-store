@@ -81,15 +81,12 @@ function custom_theme_register_menus() {
 add_action('after_setup_theme', 'custom_theme_register_menus');
 
 class My_Walker_Nav_Menu extends Walker_Nav_Menu {
-	// ... ваш существующий код ...
 
 	function start_lvl(&$output, $depth = 0, $args = null) {
-		// depth dependent classes
-		$indent = str_repeat("\t", $depth); // code indent
-		$display_depth = $depth + 1; // because it counts the first submenu as 0
+		$indent = str_repeat("\t", $depth);
+		$display_depth = $depth + 1;
 
 		if ($depth === 0) {
-			// Top level submenu
 			$classes = array(
 				'sub-menu',
 				'top-level-sub-menu',
@@ -97,7 +94,6 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 				'menu-depth-' . $display_depth
 			);
 		} elseif ($depth === 1) {
-			// Second level submenu
 			$classes = array(
 				'sub-menu',
 				'second-level-sub-menu',
@@ -105,7 +101,6 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 				'menu-depth-' . $display_depth
 			);
 		} elseif ($depth === 2) {
-			// Third level submenu
 			$classes = array(
 				'sub-menu',
 				'third-level-sub-menu',
@@ -116,12 +111,11 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 
 		$class_names = implode(' ', $classes);
 
-		// build html
 		$output .= "\n$indent<ul class=\"$class_names\">\n";
 	}
 
 	function start_el(&$output, $item, $depth = 0, $args = null, $current_object_id = 0) {
-		$indent = str_repeat("\t", $depth); // code indent
+		$indent = str_repeat("\t", $depth);
 
 		$depth_classes = array(
 			($depth == 0 ? 'main-menu-item' : 'sub-menu-item'),
@@ -132,12 +126,12 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 
 		if ($depth === 0) {
 			$depth_classes[] = 'top-level-menu-item';
+			$depth_classes[] = 'grey-hover';
 		}
 
 		if (in_array('menu-item-has-children', $item->classes) && $depth === 0) {
 			$depth_classes[] = 'has-submenu';
 
-			// Дополнительный класс для главного элемента с подменю
 			$depth_classes[] = 'main-menu-item-with-submenu';
 		}
 
@@ -177,7 +171,6 @@ class My_Walker_Nav_Menu extends Walker_Nav_Menu {
 
 		$attributes .= ' class="menu-link ' . $link_class . '"';
 
-		// Дополнительный класс для главного элемента с подменю
 		if ($depth === 0 && $has_children) {
 			$attributes .= ' class="menu-link main-menu-item-with-submenu"';
 		}
